@@ -40,6 +40,8 @@ function config_base_user() {
     echo "Install Oh-My-Zsh"
     sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+    echo "N"
+
     echo "Change shell"
     sudo chsh -s /bin/zsh ${user}
 
