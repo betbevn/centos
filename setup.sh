@@ -46,7 +46,7 @@ function config_base_user() {
 
 # Variables
 
-USER='whoami'
+USER='root'
 
 # Setup
 install_basic_tools
