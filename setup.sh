@@ -2,11 +2,11 @@
 
 function install_basic_tools() {
    echo "Installing basic tools ..."
-   sudo yum update
-   sudo yum install -y byobu zsh vim
-   sudo yum install -y git
-   sudo yum install -y htop
-   sudo yum install -y wget
+   sudo yum -y update
+   sudo yum -y install byobu zsh vim
+   sudo yum -y install git
+   sudo yum -y install htop
+   sudo yum -y install wget
 }
 
 function install_docker_and_tools() {
