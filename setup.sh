@@ -7,6 +7,7 @@ function install_basic_tools() {
    sudo yum -y install git
    sudo yum -y install htop
    sudo yum -y install wget
+   sudo yum -y install net-tools
 }
 
 function install_docker_and_tools() {
